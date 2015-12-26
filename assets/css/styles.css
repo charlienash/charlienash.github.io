@@ -26,4 +26,4 @@ body { padding-top: 70px; }
  * so that the container will not spread to the entire viewport.
 */
 
-.container-fluid { max-width: 1000px; }
+.container-fluid { max-width: 500px; }
