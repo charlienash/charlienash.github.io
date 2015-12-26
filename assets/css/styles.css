@@ -27,3 +27,8 @@ body { padding-top: 70px; }
 */
 
 .container-fluid { max-width: 500px; }
+
+/* style.css */
+* {
+   font-size: 9px;
+}
