@@ -29,9 +29,9 @@ body {
  * so that the container will not spread to the entire viewport.
 */
 
-.container-fluid { max-width: 1000px; }
+.container-fluid { max-width: 900px; }
 .container{
-   max-width:1000px !important;
+   max-width:900px !important;
 }
 .img-responsive {
     margin: 0 auto;
