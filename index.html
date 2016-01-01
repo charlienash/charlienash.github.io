@@ -138,7 +138,7 @@
 							Electroencephalograms (EEGs) can record electrical activity in the brain. In conjunction with a brain-computer interface (BCI) they can be used to augment human sensory functions or control robotic devices.
 						</p>
 						<p>
-							In this project we use EEG inputs to classify which of three tasks a subject is performing. We apply feature selection, then use Random Forests with temporal smoothing to Classify each time point. 
+							In this project we use EEG inputs to classify which of three tasks a subject is performing. We apply feature selection, then use Random Forests with temporal smoothing to classify each time point. 
 						</p>
 						<p>
 							This was a short project as part of the MSc in Data Science at Edinburgh University. More info can be found in the <a href="assets/docs/bciPoster.pdf">poster</a> and <a href="assets/docs/bciReport.pdf">report</a>.
@@ -158,7 +158,27 @@
 					</div>
 					<div class="col-xs-9">
 						<p>
-							In machine learning, many good models are large, expensive or intractable. <em>Knowledge distillation</em> is the idea of training a convenient model to mimic a good but cumbersome model. This way we obtain the good performance of the original model in a much more convenient compact form. We apply this idea in: (a) <em>model compression</em>, where we compress large discriminative models, such as ensembles of neural nets, into models of much smaller size; 
+							MATLAB implementation of a non-rigid variant of the iterative closest point algorithm. It can be used to register 3D surfaces or point-clouds. The method is described in the following paper:
+
+							'Optimal Step Nonrigid ICP Algorithms for Surface Registration', Amberg, Romandhani and Vetter, CVPR, 2007.
+						</p>
+						<p>
+							Features:
+							<ol>
+
+								<li>
+									Non-rigid and local deformations of a template surface or point cloud.
+								</li>
+								<li>
+									Iterative stiffness reduction allows for global intitial transformations that become increasingly localised.
+								</li>
+								<li>
+									Optional initial rigid registration using standard iterative closest point.
+								</li>
+								<li>
+									Optional bi-directional distance metric which encourages surface deformations to cover more of the target surface
+								</li>
+							</ol>
 						</p>
 						<p>
 							<a href="https://github.com/charlienash/nricp"> Github repository</a>.
