@@ -1,0 +1,9 @@
+@article {nash17,
+journal = {Computer Graphics Forum},
+title = {{The Shape Variational Autoencoder: A Deep Generative Model of Part-segmented 3D Objects}},
+author = {Nash, Charlie and Williams, Chris K. I.},
+year = {2017},
+publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
+ISSN = {1467-8659},
+DOI = {10.1111/cgf.13240}
+}
