@@ -103,9 +103,9 @@
 			<h3 id="News">News</h3>
 			<hr>
 			<ul>
-				<li> <i>August 2017</i>: I am currently interning at Google DeepMind with Peter Battaglia. </li>
-				<li> <i>July 2017</i>: I presented our work on the shape variational autoencoder at the Symposium of Geometry Processing in London. </li>
-				<li> <i>May 2017</i>: I am excited to start an internship at Microsoft Research in Cambridge working with Nate Kushman. </li>
+				<li> <i>August 2017</i> -- I am currently interning at Google DeepMind with Peter Battaglia. </li>
+				<li> <i>July 2017</i> -- I presented our work on the shape variational autoencoder at the Symposium of Geometry Processing in London. </li>
+				<li> <i>May 2017</i> -- I am excited to start an internship at Microsoft Research in Cambridge working with Nate Kushman. </li>
 			</ul>
 			<h3 id="Publications">Publications</h3>
 			<hr>
@@ -138,6 +138,30 @@ part-segmented 3D objects</cite>.
 
 			<h3 id="Projects">Projects</h3>
 			<hr>
+			
+			<h4 id="svae">The shape variational autoencoder</h4>
+			<div class="panel panel-default">
+	  			<div class="panel-body row">
+					<div class="col-xs-3">
+						<img src="assets/img/svae_vis.png" class="img-responsive img-rounded" alt="Distilling Model Knowledge"/>
+					</div>
+					<div class="col-xs-9">
+						<p>
+							We introduce a generative model of part-segmented 3D objects: the shape variational auto-encoder (ShapeVAE). 
+						</p>
+						<p>
+							The ShapeVAE
+describes a joint distribution over the existence of object parts, the locations of a dense set of surface points, and over surface normals associated with these points. Our model makes use of a deep encoder-decoder architecture that leverages the part-decomposability of 3D objects to embed high-dimensional shape representations and sample novel instances. 
+						</p>
+						<p>Given an input
+collection of part-segmented objects with dense point correspondences the ShapeVAE is capable of synthesizing novel 
+shapes, and by performing conditional inference enables imputation of missing parts or surface normals. In addition, by
+generating both points and surface normals, our model allows for the use of powerful surface-reconstruction methods for
+mesh synthesis.
+						</p>
+					</div>
+	  			</div>
+			</div>
 
 			<h4 id="modelling3DShapes">Modelling 3D Shape Classes</h4>
 			<div class="panel panel-default">
