@@ -1,0 +1,12 @@
+@article{nash17,
+title = {The multi-entity variational autoencoder},
+author = {Nash, Charlie and
+          Eslami, SM Ali and
+          Burgess, Chris and
+          Higgins, Irina and
+          Zoran, Daniel and
+          Weber, Theophane and
+          Battaglia, Peter},
+journal = {NIPS Workshops},
+year = {2017}
+}
